@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import SEO from "../components/seo"
+import "../css/reset.css"
 
 const Main = styled.main`
   background: black;
