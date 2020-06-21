@@ -99,7 +99,7 @@ const IndexPage = () => (
         <p className="contact">
           You can find me on Twitter and Instagram, or send me an email. I’m
           interested in the future, decentralization, product design and
-          whatever else pickles my interest at the current time. I also make
+          whatever else catches my interest at the current time. I also make
           music under the moniker of Evalir.
         </p>
         <div className="jumbotext">
