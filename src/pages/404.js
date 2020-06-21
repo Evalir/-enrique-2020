@@ -1,14 +1,31 @@
 import React from "react"
-
-import Layout from "../components/layout"
+import styled from "styled-components"
 import SEO from "../components/seo"
 
+const Main = styled.main`
+  background: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+`
+
+const FourOFour = styled.h1`
+  position: absolute;
+  top: 40vh;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  user-select: none;
+  font-weight: bold;
+  font-size: 128px;
+`
+
 const NotFoundPage = () => (
-  <Layout>
+  <Main>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+    <FourOFour>NOT FOUND</FourOFour>
+  </Main>
 )
 
 export default NotFoundPage
