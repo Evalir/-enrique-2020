@@ -117,7 +117,7 @@ const IndexPage = () => (
           <span>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <SafeLink location="https://twitter.com/cryptoyizus">
-              @cryptoyizus on Github
+              @cryptoyizus on Twitter
             </SafeLink>
           </span>
           <br />
