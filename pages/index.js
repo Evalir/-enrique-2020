@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import memoji from "../public/memoji.png"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Enrique Ortiz</title>
         <meta name="description" content="Enrique Ortiz&apos;s personal site" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/memoji.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
@@ -19,7 +20,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.memoji}>
           <Image
-            src="/../public/memoji.png"
+            src={memoji}
             alt="Memoji"
             width={128}
             height={128}
