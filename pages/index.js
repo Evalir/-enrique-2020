@@ -21,7 +21,6 @@ export default function Home() {
         <div className={styles.memoji}>
           <Image
             src={memoji}
-            alt="Memoji"
             width={128}
             height={128}
             layout="fixed"
